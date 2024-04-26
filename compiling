@@ -1,0 +1,6 @@
+to compile a main.c with a library, command is:
+
+  cc main.c example/path/library.a
+  cc main.c libft/libft.a
+
+  
