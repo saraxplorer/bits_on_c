@@ -1,0 +1,9 @@
+#Why do we use header file?
+-we declare functions and variables here. It is like a menu.
+-It enables auto-suggestions in VS code when we are trying to use functions from library.
+
+##ifndef  & # endif works as a guard against multiple inclusions.     
+#ifndef: Stands for "if not defined". It checks whether a particular macro has not been defined yet. If the macro has not been defined, the code between #ifndef and #endif is included. If the macro has been defined, the code is skipped.
+#ifndef SO_LONG_H
+# define SO_LONG_H
+_H is just a convention to know it is a header file
