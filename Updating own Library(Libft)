@@ -1,9 +1,9 @@
 **#When adding a new function to the library:**
 
--Add the .c and .h files in the libft folder
+-Add the .c and .h files of the function to be added, in the libft folder
 -Skip the corresponding Makefiles
 -Make sure all functions' parameters and returns are EXACTLY the same as main library, here, known as libft.
--Add the .c files in the Library's Makefile
+-Add the names of the new .c files in the Library's Makefile
 -make
 
 
