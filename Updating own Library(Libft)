@@ -4,6 +4,7 @@
 -Skip the corresponding Makefiles
 -Make sure all functions' parameters and returns are EXACTLY the same as main library, here, known as libft.
 -Add the names of the new .c files in the Library's Makefile
--make
+-make (you have to be in the folder of the library)
+-if you change anything inside the library, you have to make it each time**
 
 
