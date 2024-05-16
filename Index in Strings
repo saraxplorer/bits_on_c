@@ -1,0 +1,22 @@
+ i++ vs str[i]++:
+
+i++:
+
+This expression increments the value of the variable i. it means i + 1;
+It does not move any pointer.
+It simply updates the value of i by 1, so i points to the next index in the sequence, typically used in loops for iteration.
+
+
+str[i]++:
+
+This expression increments the value of the character stored at index i in the string str.
+It does not move any pointer either.
+It accesses the character at index i, increments its value, and stores the result back in the same location.
+This is commonly used to modify characters in a string, for example, converting lowercase letters to uppercase or vice versa.
+For example, if str[i] initially stores the character 'A' (which corresponds to the ASCII value 65), then after str[i]++,
+it will store 'B' (which corresponds to the ASCII value 66).
+
+
+
+
+
