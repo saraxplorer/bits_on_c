@@ -1,0 +1,3 @@
+to connect my own library(libft) with my source files, they need to be in the same directory and I can do either-
+  1. I can simply #include "libft/libft.h" on each source file or,
+  2. I can make a header file and write #include "libft/libft.h" there and include the header file in the source files like #include "pipex.h"
