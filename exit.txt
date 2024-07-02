@@ -1,0 +1,3 @@
+-exit(127): Use for specific error conditions like a command not found. Not interchangeable with EXIT_FAILURE or EXIT_SUCCESS.exit(127) is commonly used by shells to indicate a command not found.
+-exit(EXIT_FAILURE): Use to indicate a generic failure. Not interchangeable with EXIT_SUCCESS.
+-exit(EXIT_SUCCESS): Use to indicate successful completion. Not interchangeable with EXIT_FAILURE
